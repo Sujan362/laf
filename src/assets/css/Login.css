@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+#loginlogotxt {
+  color: #ffffff;
+  font-family: "Great Vibes", cursive;
+  margin: 0;
+  font-size: 80px;
+}
+
+#loginbox {
+  padding: 80px;
+}
+
+#loginspan2 {
+  margin-left: -5px;
+  color: #e9d362;
+}
+
+#loginspan1 {
+  background: -webkit-linear-gradient(-360deg, #e0ac1c, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  color: #e9d362;
+  font-size: 80px;
+}
+
+b {
+  color: white;
+}
+
+#loginInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#loginbtn {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  background-color: #2e4053;
+  border: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#loginbtnadmin {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  background-color: #2e4053;
+  border: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#loginbtnadmin:hover {
+  opacity: 0.8;
+}
+
+#loginbtn:hover {
+  opacity: 0.8;
+}
+
+#loginlogo {
+  text-align: center;
+}
+
+#logincont {
+  padding: 16px;
+}
+
+#logincont a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+#logincont a:hover {
+  color: #e9d362;
+}

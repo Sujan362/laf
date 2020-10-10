@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #eaf0f2;
+}
+
+body {
+  font: 16px/1.6 Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 190px;
+}
+
+header h1 {
+  font: normal 32px/1.5 "Open Sans", sans-serif;
+  color: #3f71ae;
+  padding-bottom: 16px;
+}
+
+header h2 {
+  color: #f05283;
+}
+
+header span {
+  color: #3f71ea;
+}
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-height: 800px) {
+  footer {
+    position: static;
+  }
+  header {
+    padding-top: 40px;
+  }
+}
+
+.footer-distributed {
+  background-color: black;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 30%;
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img {
+  width: 30%;
+}
+
+.footer-distributed h3 span {
+  color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #e0ac1c;
+  text-decoration: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+@media (max-width: 880px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+@media (max-width: 880px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Libre+Caslon+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat&display=swap");
+
+#pillbtnlost {
+  color: white;
+  background-color: #2e4053;
+  border-radius: 15px 0px 0px 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#pillbtnlost:hover {
+  background-color: #315d8b;
+}
+
+#pillbtnfound {
+  color: white;
+  background-color: #2e4053;
+  border-radius: 0px 15px 15px 0px;
+  margin-left: 1px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#pillbtnfound:hover {
+  background-color: #315d8b;
+}
+
+@media only screen and (min-width: 600px) {
+  #pillbtnlost {
+    width: 200px;
+  }
+
+  #pillbtnfound {
+    width: 200px;
+  }
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Alice&display", cursive;
+}
+
+#createbtn {
+  background-color: #2e4053;
+  border: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#founditbtn {
+  background-color: #2e4053;
+  border: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#pillbtnlostadmin {
+  color: white;
+  background-color: #2e4053;
+  border-radius: 15px 0px 0px 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#pillbtnlostadmin:hover {
+  background-color: #315d8b;
+}
+
+#pillbtnfoundadmin {
+  color: white;
+  background-color: #2e4053;
+  border-radius: 0px 0px 0px 0px;
+  margin-left: 1px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#pillbtnfoundadmin:hover {
+  background-color: #315d8b;
+}
+
+#pillbtncompleted {
+  color: white;
+  background-color: #2e4053;
+  border-radius: 0px 15px 15px 0px;
+  margin-left: 1px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#pillbtncompleted:hover {
+  background-color: #315d8b;
+}
+
+@media only screen and (min-width: 600px) {
+  #pillbtnlostadmin {
+    width: 150px;
+    height: 40px;
+  }
+
+  #pillbtnfoundadmin {
+    width: 150px;
+    height: 40px;
+  }
+
+  #pillbtncompleted {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+#pillbtnpending {
+  color: white;
+  background-color: #2e4053;
+  border-radius: 15px 0px 0px 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#pillbtnpending:hover {
+  background-color: #315d8b;
+}
+
+#pillbtnaccepted {
+  color: white;
+  background-color: #2e4053;
+  border-radius: 0px 0px 0px 0px;
+  margin-left: 1px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#pillbtnaccepted:hover {
+  background-color: #315d8b;
+}
+
+#pillbtnrejected {
+  color: white;
+  background-color: #2e4053;
+  border-radius: 0px 15px 15px 0px;
+  margin-left: 1px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#pillbtnrejected:hover {
+  background-color: #315d8b;
+}
+
+@media only screen and (min-width: 600px) {
+  #pillbtnpending {
+    width: 150px;
+    height: 40px;
+  }
+
+  #pillbtnaccepted {
+    width: 150px;
+    height: 40px;
+  }
+
+  #pillbtnrejected {
+    width: 150px;
+    height: 40px;
+  }
+}
+/*footer styling*/
+.footer-right {
+  margin-top: 10px;
+}
+
+/*Home syling paragraph*/
+.tab-content p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.spanClass {
+  background: -webkit-linear-gradient(-360deg, #e0ac1c, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+}

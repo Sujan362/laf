@@ -1,0 +1,635 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+html {
+  --scrollbarBG: pink;
+  --thumbBG: blue;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: "Great Vibes", cursive;
+  margin: 0;
+}
+h3 span {
+  color: #e9d362;
+}
+.navbar {
+  background-color: black;
+}
+.nav-link {
+  color: white;
+}
+.btn-outline {
+  color: blue;
+}
+#navbtn {
+  background-color: pink;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #e9d362;
+}
+
+.container12 {
+  border: 2px solid #dedede;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  margin-top: -35px;
+}
+@media all and (max-width: 600px) {
+  .container12 {
+    margin-top: 0px;
+  }
+}
+
+#a {
+  text-decoration: none;
+}
+
+.container12::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container12 img {
+  float: left;
+  max-width: 80px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.timeconvo {
+  float: right;
+  color: #aaa;
+}
+
+@media only screen and (min-width: 600px) {
+  .cont12 {
+    height: auto;
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+  }
+}
+
+#chatp {
+  color: grey;
+  font-family: "Montserrat", sans-serif;
+}
+
+#chatpHead {
+  font-size: 20px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+#chatpHeadName {
+  font-size: 15px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+#chatpHeadName2 {
+  margin-left: 45px;
+  font-size: 15px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*CONVERSATIONTEST KO STYLING*/
+@import url(https://fonts.googleapis.com/css?family=Lato:100, 300, 400, 700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+a {
+  color: rgba(82, 179, 217, 0.9);
+}
+
+/* M E S S A G E S */
+#chatname {
+  margin-left: 150px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+#hrname {
+  background-color: #27486a;
+  margin-top: 20px;
+}
+#chatHeadImg {
+  margin-top: -30px;
+  max-height: 100px;
+  max-width: 120px;
+  margin-left: 5px;
+  float: left;
+}
+
+#sectionname {
+  color: white;
+  margin-left: 150px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.chat {
+  list-style: none;
+  background: none;
+  margin: 0;
+  padding: 0 0 50px 0;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.chat li {
+  padding: 0.5rem;
+  overflow: hidden;
+  display: flex;
+}
+.chat .avatar {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  display: block;
+  z-index: 2;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.chat .avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.chat .day {
+  position: relative;
+  display: block;
+  text-align: center;
+  color: #c0c0c0;
+  height: 20px;
+  text-shadow: 7px 0px 0px #e5e5e5, 6px 0px 0px #e5e5e5, 5px 0px 0px #e5e5e5,
+    4px 0px 0px #e5e5e5, 3px 0px 0px #e5e5e5, 2px 0px 0px #e5e5e5,
+    1px 0px 0px #e5e5e5, 1px 0px 0px #e5e5e5, 0px 0px 0px #e5e5e5,
+    -1px 0px 0px #e5e5e5, -2px 0px 0px #e5e5e5, -3px 0px 0px #e5e5e5,
+    -4px 0px 0px #e5e5e5, -5px 0px 0px #e5e5e5, -6px 0px 0px #e5e5e5,
+    -7px 0px 0px #e5e5e5;
+  box-shadow: inset 20px 0px 0px #e5e5e5, inset -20px 0px 0px #e5e5e5,
+    inset 0px -2px 0px #d7d7d7;
+  line-height: 38px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+#sendButtonChat {
+  background-color: #27486a;
+}
+
+.other .msg {
+  order: 1;
+  border-top-left-radius: 0px;
+  box-shadow: -1px 2px 0px #d4d4d4;
+}
+.other:before {
+  content: "";
+  position: relative;
+  top: 0px;
+  right: 0px;
+  left: 40px;
+  width: 0px;
+  height: 0px;
+  border: 5px solid #fff;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.self {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.self .msg {
+  order: 1;
+  border-bottom-right-radius: 0px;
+  box-shadow: 1px 2px 0px #27486a;
+  background-color: #27486a;
+}
+.self .avatar {
+  order: 2;
+}
+.self .avatar:after {
+  content: "";
+  position: relative;
+  display: inline-block;
+  bottom: 19px;
+  right: 0px;
+  width: 0px;
+  height: 0px;
+  border: 5px solid #27486a;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  box-shadow: 0px 2px 0px #27486a;
+}
+.self p {
+  color: white;
+}
+.other p {
+  color: #777;
+}
+
+.msg {
+  background: white;
+  min-width: 50px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.07);
+}
+.msg p {
+  font-size: 0.8rem;
+  margin: 0 0 0.2rem 0;
+}
+.msg img {
+  position: relative;
+  display: block;
+  width: 450px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px #eee;
+  transition: all 0.4s cubic-bezier(0.565, -0.26, 0.255, 1.41);
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+@media screen and (max-width: 800px) {
+  .msg img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .msg img {
+    width: 200px;
+  }
+}
+
+.msg time {
+  font-size: 0.7rem;
+  color: #ccc;
+  margin-top: 3px;
+  float: right;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.msg time:before {
+  content: "\f017";
+  color: #ddd;
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+emoji {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -7px;
+  margin-right: 2px;
+  transform: translate3d(0px, 3px, 0px);
+}
+emoji.please {
+  background-image: url(https://imgur.com/ftowh0s.png);
+}
+emoji.lmao {
+  background-image: url(https://i.imgur.com/MllSy5N.png);
+}
+emoji.happy {
+  background-image: url(https://imgur.com/5WUpcPZ.png);
+}
+emoji.pizza {
+  background-image: url(https://imgur.com/voEvJld.png);
+}
+emoji.cryalot {
+  background-image: url(https://i.imgur.com/UUrRRo6.png);
+}
+emoji.books {
+  background-image: url(https://i.imgur.com/UjZLf1R.png);
+}
+emoji.moai {
+  background-image: url(https://imgur.com/uSpaYy8.png);
+}
+emoji.suffocated {
+  background-image: url(https://i.imgur.com/jfTyB5F.png);
+}
+emoji.scream {
+  background-image: url(https://i.imgur.com/tOLNJgg.png);
+}
+emoji.hearth_blue {
+  background-image: url(https://i.imgur.com/gR9juts.png);
+}
+emoji.funny {
+  background-image: url(https://i.imgur.com/qKia58V.png);
+}
+
+@-webikt-keyframes pulse {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+::-webkit-scrollbar {
+  min-width: 12px;
+  width: 12px;
+  max-width: 12px;
+  min-height: 12px;
+  height: 12px;
+  max-height: 12px;
+  background: #e5e5e5;
+  box-shadow: inset 0px 50px 0px rgba(82, 179, 217, 0.9),
+    inset 0px -52px 0px #fafafa;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border: none;
+  border-radius: 100px;
+  border: solid 3px #e5e5e5;
+  box-shadow: inset 0px 0px 3px #999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b0b0b0;
+  box-shadow: inset 0px 0px 3px #888;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #aaa;
+  box-shadow: inset 0px 0px 3px #7f7f7f;
+}
+
+::-webkit-scrollbar-button {
+  display: block;
+  height: 26px;
+}
+
+/* T Y P E */
+
+input.textarea {
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: #fafafa;
+  border: none;
+  outline: none;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-weight: 400;
+  width: 100%;
+  height: auto;
+}
+
+.sendmsgbtn {
+  position: absolute;
+}
+
+.wspace {
+  display: inline-block;
+  position: relative;
+}
+
+.sendmsgbtn {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-top: 90px;
+}
+
+.container15 {
+  background-color: black;
+  height: auto;
+  margin: auto;
+  width: 80%;
+  margin-top: 50px;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.notification {
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+.badge {
+  position: relative;
+  top: -10px;
+  right: -10px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  margin-left: -15px;
+}
+#secondaryBadge {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+/*new styling for home.php*/
+#cardmargin {
+  margin-bottom: 8px;
+}
+.card .img-responsive {
+  padding: 2px;
+}
+.carousel-inner .img-responsive {
+  padding: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 290;
+  height: 236;
+}
+
+.card-body .card-text {
+  color: black;
+}
+#card-date {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+.card-body {
+  background-color: ghostwhite;
+  max-height: auto;
+  margin-bottom: 1px;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+}
+@media all screen and (max-width: 600px) {
+  .card-body {
+    max-height: auto;
+
+    padding: 15px;
+  }
+
+  .card-body .card-text {
+    color: black;
+  }
+}
+
+/*modal ko lagi gareko styling "create post"*/
+#modalheadcolor {
+  background-color: #2e4053;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border-style: solid;
+}
+#modalheadcolor h5 {
+  font-size: 16px;
+  border: none;
+  border-radius: none;
+}
+#modalheadcolorfooter {
+  border-color: #2edaff;
+  font-family: "Montserrat", sans-serif;
+}
+#postitemmodal {
+  background-color: #314d6a;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+#modalsure {
+  background-color: #314d6a;
+}
+
+#modalsure p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+#modalsurefooter {
+  background-color: #314d6a;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#x {
+  color: white;
+}
+#founditbtnmd {
+  background-color: #2e4053;
+  border: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#cancelbtnmd {
+  background-color: white;
+  color: black;
+  border: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#cancelbtnmd:hover {
+  background-color: red;
+  color: white;
+}
+
+/*#imgcardmodal{
+      max-width: auto;
+      max-height: 300px;
+    }
+  
+    @media all (max-width: 600px){
+      #imgcardmodal{
+      max-width: 200px;
+    }
+  
+    }
+  
+    #imgcardonly{
+    max-width: 400px;
+    max-height: 300px;    
+    }*/
+
+/* @media all (max-width: 600px){
+      #imgcardonly{
+      max-width: 580px;
+  
+      }*/
+
+.img-responsive {
+  width: 347px;
+  height: 236px;
+}
+
+@media all and (max-width: 900px) {
+  .img-responsive {
+    width: 345px;
+  }
+}
